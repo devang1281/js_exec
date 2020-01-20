@@ -12,6 +12,15 @@ console.log(`half of 100 is ${100 / 2}`)
 a =10
 console.log(a*a);
 
+let x = 10;
+if (true) {
+	let y = 20;
+	var z = 30;
+	console.log(x + y + z);
+}
+console.log(x + /*y +*/ z);
+
+
 
 /*let theNumber = Number(prompt("Pick a number"));
 console.log("Your number is the square root of " +
