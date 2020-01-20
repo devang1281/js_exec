@@ -7,5 +7,5 @@ function min(num1,num2)
 	else
 		return("same\t" + num1)
 }
-
-console.log(min(20,20))
+a=process.argv[2]
+console.log(min(a,20))

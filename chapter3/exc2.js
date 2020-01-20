@@ -10,6 +10,6 @@ function isEven(num1)
 		return isEven(num1-2)
 }
 
-console.log(isEven(50));
+console.log(isEven(process.argv[2]/*50*/));
 console.log(isEven(75));
 console.log(isEven(-1));
